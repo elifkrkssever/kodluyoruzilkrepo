@@ -1,0 +1,13 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+root 5'dir. root'un solunda [0,1,2,3,4] root'un sagında [6,7,8,9] bulunur.
+
+1. adım: [0,1,2,3,4,5,6,7,8,9] Binary-Search-Tree sıralanmış dizi üzerinde işlem  yapar. 
+aradığım sayı 2 olsun. dizinin en düşük, orta ve en yüksek değeri bulunur. 
+ortanca değer aradığım sayıdan büyükse (5>2) dizide ortanca değerin sol kısmı ile devam edilir.
+
+2. adım: [0,1,2,3,4,5] ortanca deger 3>2 oldugundan dizide ortanca değerin sol kısmı ile devam edilir.
+
+3.adım: [0,1,2,3]  ortanca deger 1<2  oldugundan dizide ortanca değerin sağ kısmı ile devam edilir.
+
+4.adım: [2] aranan değer bulundu.
