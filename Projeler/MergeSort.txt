@@ -1,0 +1,18 @@
+[16,21,11,8,12,22]
+
+Merge Sort sıralama algoritmasında her dizi elemanı tek bir parça olana kadar
+ sürekli ikiye bölünür. Daha sonra her birim diğeriyle karşılaştırılır küçük olan sola
+ yazılacak şekilde tekrar gruplanır. en sonda oluşan sıralı iki grubun küçük elemanları karşılaştırılarak 
+ sıralama yapılır.
+
+1.adım:              [16,21,11]         [8,12,22]
+
+2.adım:           [16,21]   [11]      [8,12]    [22]
+
+3.adım:         [16]  [21]   [11]   [8]    [12]    [22] 
+
+4.adım:            [16] [11,21]        [8]   [12,22]
+
+5.adım:             [11,16,21]           [8,12,22]
+
+6.adım:               [8,11,12,16,21,22]
